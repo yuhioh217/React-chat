@@ -1,0 +1,12 @@
+.register_icon {
+  animation: register_icon_animation infinite 20s linear;
+}
+
+@keyframes register_icon_animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
